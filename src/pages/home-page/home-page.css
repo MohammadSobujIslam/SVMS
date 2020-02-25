@@ -1,0 +1,27 @@
+.home-page {
+	height: calc(100vh - 80px);
+	width: 100%;
+	background-size: cover;
+	position: relative;
+}
+
+.home-page-heading {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+	text-align: center;
+	color: white;
+}
+
+.home-page-heading h3 {
+	font-size: 3.2rem;
+	margin-bottom: 10px;
+}
+
+.home-page-heading p {
+	font-size: 1.5rem;
+	letter-spacing: 8px;
+	color: pink;
+	font-weight: bold;
+}

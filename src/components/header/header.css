@@ -1,0 +1,32 @@
+.header {
+	height: 80px;
+	background:rgb(1, 124, 67);
+	display: flex;
+	align-items: center;
+}
+
+.header .nav {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header .nav .nav-items {
+	display: flex;
+	color: white;
+
+}
+
+.nav-items a {
+	margin: 0 8px;
+	padding :4px;
+	color: white;
+}
+
+.logo a {
+	color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.institution-page {
+	height: calc(100vh - 80px);
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+}

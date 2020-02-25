@@ -1,0 +1,67 @@
+
+.create-person-page {
+	width: 100%;
+	height: calc(100vh - 80px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.create-person-form {
+	border: 1px solid green;
+	min-width: 500px;
+	padding-bottom: 2rem;
+}
+
+.create-person-form .form-heading {
+	background: rgb(1, 124, 67);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	margin-bottom: 2rem;
+
+}
+
+.create-person-form h3 {
+	color: white;
+}
+
+.form-group {
+	padding: 10px 2rem;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.form-group input {
+	padding: 10px 20px;
+}
+.form-group label {
+	margin-bottom: 5px;
+}
+
+.form-group button {
+	padding:10px 15px;
+	font-size: 18px;
+	background: rgb(1, 124, 67);
+	color: white;
+	border-style: solid;
+	cursor: pointer;
+	outline: none;
+}
+
+.form-group button:hover {
+	background: rgb(6, 185, 101);
+}
+
+
+
+#buttons {
+	display: flex;
+	flex-direction: row;
+}
+
+#buttons .submit {
+	margin-right: 20px;
+}
