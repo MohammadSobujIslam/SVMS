@@ -5,9 +5,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 80px;
 }
 
 .create-person-form {
+	margin-top: 80px;
 	border: 1px solid green;
 	min-width: 500px;
 	padding-bottom: 2rem;

@@ -3,6 +3,11 @@
 	background:rgb(1, 124, 67);
 	display: flex;
 	align-items: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 200;
 }
 
 .header .nav {

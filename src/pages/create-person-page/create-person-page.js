@@ -5,7 +5,7 @@ import './create-person-page.css'
 const CreatePersonPage = props => {
 	return (
 		<div className="create-person-page">
-			<from className="create-person-form">
+			<form className="create-person-form">
 				<div className="form-heading">
 					<h3>Give correct info</h3>
 				</div>
@@ -41,7 +41,7 @@ const CreatePersonPage = props => {
 					<button className='submit' type="submit">Submit</button>
 					<button className='reset' type='reset'>Reset</button>
 				</div>
-			</from>
+			</form>
 		</div>
 	)
 }
