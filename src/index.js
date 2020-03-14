@@ -1,11 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './app/App';
-import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router } from 'react-router-dom'
+const express = require('express')
+const cors = require('cors')
+const morgan = require('morgan')
+
+const app = express()
+const PORT = process.env.PORT || 5000
 
 
-ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
+app.use(cors())
+app.use(morgan('common'))
+app.use(express.json({ extended: true }))
 
-serviceWorker.unregister();
+app.get('/', (req, res) => {
+	res.send("Hello smart village.")
+})
+
+app.listen(PORT, () => {
+	console.log(`Server is running on port: ${PORT}`)
+})
+
+
