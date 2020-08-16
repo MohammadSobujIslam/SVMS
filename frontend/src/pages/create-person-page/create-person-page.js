@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 // import PropTypes from 'prop-types'
 import './create-person-page.css'
 
 const CreatePersonPage = props => {
+	const [personState, setPersonState] = useState({
+		firstName: '',
+		lastName: '',
+		age: null,
+		address: '',
+		phoneNumber: '',
+		nid: null,
+		birthday:  null
+	})
 	return (
 		<div className="create-person-page">
 			<form className="create-person-form">

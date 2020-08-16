@@ -6,6 +6,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 const usersRouter = require('./api/users/router')
+const personsRouter = require('./api/persons/router')
 
 
 app.use(cors())
@@ -17,6 +18,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/api/users', usersRouter)
+app.use('/api/persons', personsRouter)
 
 app.listen(PORT, () => {
 	console.log(`Server is running on port: ${PORT}`)
