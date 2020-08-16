@@ -1,0 +1,44 @@
+.village-page {
+	margin-top: 80px;
+	height: calc(100vh - 80px);
+}
+
+.village-container {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.tab-container {
+	display: flex;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+}
+
+.tab {
+	padding: 10px 20px;
+	font-size: 22px;
+	font-weight: bold;
+	
+	margin-right: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(0, 136, 226);
+	background-color: transparent;
+	color: rgb(0, 136, 226);
+	cursor: pointer;
+
+
+}
+
+.tab.active {
+	color: white;
+	background-color: rgb(0, 136, 226);
+}
+
+.info-container {
+	padding: 2rem;
+	border: 1px solid grey;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}

@@ -5,6 +5,7 @@ import HomePage from '../pages/home-page'
 import CreatePersonPage from '../pages/create-person-page'
 import Header from '../components/header'
 import InstitutionPage from '../pages/institution-page'
+import VillagePage from '../pages/village-page'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage}/>
         <Route exact path='/create-person' component={CreatePersonPage}/>
+        <Route exact path='/village' component={VillagePage}/>
         <Route exact path='/institution' component={InstitutionPage}/>
       </Switch>
     </div>

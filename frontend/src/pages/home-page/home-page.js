@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import PropTypes from 'prop-types'
 import './home-page.css'
 const bgImage = './home-page.jpeg'
 
 const HomePage = props => {
+
+	useEffect(() => {
+		
+	}, [])
 	return (
 		<div className="home-page" style={{ backgroundImage: `url(${bgImage})` }}>
 			<div className="home-page-heading">

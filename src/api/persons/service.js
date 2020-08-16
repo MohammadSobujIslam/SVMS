@@ -1,6 +1,7 @@
 const pool = require('../../config/db')
 
 const createPerson = (data, callback) => {
+	console.log(data)
 	pool.query(
 		`insert into persons(firstName, lastName, age, address, phone, nid, birthday) values(?,?,?,?,?,?,?)`,
 		[data.firstName, data.lastName, data.age, data.address, data.phone, data.nid, data.birthday],
